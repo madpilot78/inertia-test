@@ -1,6 +1,6 @@
 ## About this repo
 
-Minimal app to test errors in @inertiajs/vue3 v1.0.0 when testing with jest.
+Minimal app to test errors in `@inertiajs/vue3` `v1.0.0` when testing with jest.
 
 No backend functionality, no styling.
 
