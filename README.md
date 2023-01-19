@@ -8,7 +8,7 @@ No backend functionality, no styling.
 
 ### Running:
 
-```sh
+```
 git clone https://github.com/madpilot78/inertia-test.git
 cd inertia-test
 composer install; npm ci
