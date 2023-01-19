@@ -5,6 +5,6 @@ import '@testing-library/jest-dom'
 test('Welcome Page renders', () => {
   const { getByText } = render(WelcomePage)
 
-  expect(getByText('test app')).toBeInTheDocument()
+  expect(getByText('Test app')).toBeInTheDocument()
   expect(getByText('Form link')).toBeInTheDocument()
 })
