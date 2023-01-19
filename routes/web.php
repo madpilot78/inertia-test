@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::inertia('/', 'WelcomePage')
     ->name('root');
+Route::inertia('/form', 'FormPage')
+    ->name('form');
