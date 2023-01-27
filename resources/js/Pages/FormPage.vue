@@ -1,5 +1,4 @@
 <template>
-  <Head title="Form" />
   <h1>Form</h1>
   <hr>
   <label for="field">Field</label>
@@ -12,7 +11,7 @@
 </template>
 
 <script setup>
-import { Head, useForm } from '@inertiajs/vue3'
+import { useForm } from '@inertiajs/vue3'
 
 const form = useForm({
   field: null
