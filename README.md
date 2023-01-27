@@ -37,8 +37,10 @@ A workaround is applying the following change to the vue component:
 ```javascript
 <script setup>
 import 'vue'
-import { Head, Link } from '@inertiajs/vue3'
+import { Link } from '@inertiajs/vue3'
 </script>
 ```
 
-- The `useForm` method fails to read its own properties. No workaround found.
+- The `useForm` method fails to read its own properties.
+
+Same workaround as before (adding `import 'vue'`) makes the issue disappear.
