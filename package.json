@@ -46,7 +46,8 @@
             "<rootDir>/resources/js/"
         ],
         "setupFilesAfterEnv": [
-            "jest-extended/all"
+            "jest-extended/all",
+            "<rootDir>/resources/js/tests/setupTests.js"
         ],
         "testRegex": "resources/js/tests/.*.test.js$",
         "testEnvironment": "jsdom",
