@@ -43,4 +43,4 @@ import { Link } from '@inertiajs/vue3'
 
 - The `useForm` method fails to read its own properties.
 
-Same workaround as before (adding `import 'vue'`) makes the issue disappear.
+Same workaround as above (adding `import 'vue'`) makes the issue disappear.
