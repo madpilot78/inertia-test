@@ -9,7 +9,7 @@
         "@babel/core": "^7.20.12",
         "@babel/preset-env": "^7.20.2",
         "@inertiajs/vue3": "^1.0.0",
-        "@testing-library/dom": "^8.20.0",
+        "@testing-library/dom": "^9.0.0",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/vue": "^6.6.1",
         "@vitejs/plugin-vue": "^4.0.0",
